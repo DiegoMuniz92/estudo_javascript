@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>O que é javascript?</title>
+</head>
+<body>
+    <p>Jogador 1: Cris</p>
+    <script>
+        const para = document.querySelector("p");
+
+            para.addEventListener("click", atualizarNome);
+
+            function atualizarNome() {
+            var nome = prompt("Insira um novo nome");
+            para.textContent = "Jogador 1: " + nome;
+            }
+
+    </script>
+</body>
+</html>
