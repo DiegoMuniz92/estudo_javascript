@@ -1,4 +1,4 @@
-// funções com RETURN -> usado para pegar o valor final da função,e parar uma função.
+// funções com RETURN -> usado para pegar o valor final da função e armazenar dentro de uma string,e parar uma função.
 
 function canal(){
     let n1 = 11
